@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  color: var(--text-dark);
+}
+
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+.card {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px var(--shadow);
+}
+
+h2, h3 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+th, td {
+  border: 1px solid #f0e6cc;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #ffeeb8;
+  color: #4a3f00;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #fff8e5;
+}
+
+tr:hover {
+  background-color: #fff1c7;
+  transition: 0.2s;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #e6d8a2;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: #fffef8;
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: var(--accent);
+  transform: scale(1.03);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ok {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.error {
+  color: #b71c1c;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  color: var(--text-light);
+  font-size: 0.9em;
+}
